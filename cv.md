@@ -1,3 +1,5 @@
+## [rsschool-cv](https://github.com/Kostya-x-pro/rsschool-cv/)
+
 # **Voronkov KostyA** 
 ![It's me](./photo.jpg)
 ***
@@ -24,6 +26,23 @@ Hello, I'm a beginner front-end developer. I graduated from BRU and work as an e
  * _Adress: Belarus/Mogilev_
  * _Skype: live:2a42d7cae279dbbb_ 
 ***
+
+### **Code examples:**
+    function multCustomer(a, b) {
+     let count = 1;
+     for (let i = 1; i <= b; i++) {
+        count *= a;
+      }
+      return count;
+    }
+    console.log(multCustomer(2, 4));
+***
+
+### **Languages**
+* _Belorusian_
+* _Russian_
+* _English_
+
 
 
 
