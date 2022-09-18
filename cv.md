@@ -1,4 +1,4 @@
-![avatar](CV_photo.png "It's me")
+![avatar](./CV_photo.png "It's me")
 # Kostya Voronkov  
 ## beginner frontend developer
 
