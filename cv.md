@@ -22,3 +22,17 @@ I consider my strength to be purposefulness, even if something doesn’t work ou
 * Java Script *(only theory)*
 * Git *(beginer)*
 ---
+### ***Code examples:***
+       function showMessage() {
+       alert( 'Hello World!' );
+       }
+---
+### ***Education:***
+* For some time he studied at the IT school "Melarosa".
+* Watched layout courses "Skill Box".
+* free information from youtube.
+---
+### ***Languages:***    
+* Belorusian *(Native)*
+* Russian *(Native)*
+* English *(A1 - A2)*
