@@ -1,0 +1,399 @@
+body {
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+h1,h2,p,ul,li {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+    max-width: 100%;
+}
+
+.container {
+  max-width: 100vw;
+  padding: 0 30px 0 140px;
+  margin: 0 auto;
+}
+
+.main_background {
+  background-image: url("./img/main_background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.97;
+}
+
+.section_name {
+  font-family: "Special Elite";
+  font-size: 34px;
+  text-align: left;
+  color: #c1403d;
+
+}
+
+.title_line {
+  position: relative;
+  border: 0;
+  display: block;
+  unicode-bidi: isolate;
+  margin-block-start: 0.5em;
+  margin-block-end: 0.5em;
+  margin-inline-start: auto;
+  margin-inline-end: auto;
+  overflow: hidden;
+  color: #e8e8e9;
+}
+
+/* Header */
+.header_container {
+  display: flex;
+  align-items: center;
+  margin: 0 auto 80px;
+  padding: 20px 40px 0;
+  max-width: 100vw;
+  min-height: 64px;
+}
+
+.header_nav_list {
+  display: flex;
+  align-items: center;
+}
+
+.header_initials {
+  margin-right: auto;
+  font-family: "Special Elite";
+  font-size: 64px;
+  line-height: 1;
+  color: #FFF;
+  transition-property: color font-size;
+  transition-duration: .4s;
+  transition-timing-function: linear;
+}
+
+.header_initials:hover {
+  font-size: 70px;
+  color: #c1403d;
+}
+
+.header_nav_item:not(:last-child) {
+  margin-right: 40px;
+}
+
+.header_nav_link {
+  position: relative;
+  font-weight: 700;
+  color: #FFF;
+  transition: color .4s linear;
+}
+
+.header_nav_link:active {
+  color: #c1403d;
+}
+
+.header_nav_link:after {
+  position: absolute;
+  left: 0; 
+  display: block;
+  width: 0;
+  height: 2px;
+  background-color: #c1403d;
+  content: "";
+  transition: width .4s ease-out;
+}
+
+.header_nav_link:hover:after {
+  width: 100%;
+}
+
+
+/* section hero */
+.section_hero {
+  padding: 150px 0;
+}
+
+.section_hero_hello {
+  margin-bottom: 25px;
+  font-family: "Special Elite";
+  font-size: 24px;
+  text-align: start;
+  color: #FFF;
+}
+
+.section_hero_name {
+  margin-bottom: 50px;
+  font-family: "Special Elite";
+  font-size: 64px;
+  font-weight: 700;
+  font-style: oblique ;
+  line-height: 1;
+  color: #FFF;
+}
+
+.section_hero_description {
+  margin-bottom: 25px;
+  font-family: "Special Elite";
+  font-size: 48px;
+  color: #c1403d;
+}
+
+/* main */
+.main {
+  background-image:
+  -webkit-linear-gradient(top, rgba(0, 0, 0, 1) 0%,rgba(26, 28, 36, 1) 100%);
+}
+
+/* section_about */
+.section_about {
+  padding: 80px 0;
+}
+
+.section_about_title {
+  margin-bottom: 60px;
+}
+
+.section_about_info {
+  display: flex;
+  align-items: center;
+}
+
+.section_about_description {
+  max-width: 640px;
+  text-align: left;
+  line-height: 1.5;
+  color: #FFF;
+}
+
+.section_about_img {
+  margin-left: 70px;
+  border: 4px solid #c1403d;
+  border-radius: 50%;
+}
+
+/* section skils */
+.section_skils {
+  padding: 80px 0;
+}
+
+.section_skils_title {
+  margin-bottom: 30px;
+  font-size: 35px;
+  font-weight: 700;
+  line-height: 1;
+  text-align: center;
+  color: #FFF;
+}
+
+.section_skils_list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.section_scils_item {
+  margin-top: 20px;
+  flex: 1 1 25%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 20px;
+  width: 300px;
+  min-height: 300px;
+  font-size: 28px;
+  font-weight: 600;
+  color: #FFF;
+  border: 2px solid #c1403d;
+  border-radius: 7px;
+
+  /* transition: border-color .5s linear; */
+  transition-property: border-color, color, scale, font-size;
+  transition-timing-function: linear;
+  transition-duration: .4s;
+}
+
+.section_scils_item:hover {
+  border-color: #f51713;
+  color: #f51713;
+  scale: 102%;
+  font-size: 30px;
+}
+
+.section_scils_item {
+  margin-right: 50px;
+}
+
+/* section_contact */
+.section_contact {
+  padding: 80px 0;
+}
+
+.section_contact_heding {
+  margin-bottom: 30px;
+  font-size: 35px;
+  font-weight: 700;
+  line-height: 1;
+  text-align: center;
+  color: #FFF;
+}
+
+.section_contact_list {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.section_contact_item {
+  padding: 10px 80px;
+  border: 2px solid #FFF;
+  border-radius: 10px;
+
+  transition: border-color .4s linear;
+}
+
+.section_contact_item:hover {
+  border-color: #f51713;
+}
+
+.section_contact_link {
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 1;
+  color: #FFF;
+
+  transition-property: color, font-size, scale;
+  transition-duration: .4s;
+  transition-timing-function: linear;
+}
+
+.section_contact_link:hover {
+  color: #f51713;
+  font-size: 30px;
+  scale: 102%;
+}
+
+/*Section_languages */
+.section_languages {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.section_languages_heading {
+  margin-bottom: 60px;
+}
+
+.section_laguages_list {
+  display: flex;
+  align-items: center;
+  flex: 1 1 33.33%;
+  justify-content: space-around;
+}
+
+.section_languages_item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 15px 50px;
+  font-size: 20px;
+  font-weight: 600;
+  font-style: italic;
+  color: #FFF;
+  border: 2px solid #c1403d;
+  border-radius: 5px;
+}
+
+.section_languages_item_icon {
+  display: block;
+  margin-bottom: 15px;
+  width: 50px;
+  height: 50px;
+  border: 1px solid #c1403d;
+  border-radius: 50%;
+  background-color: transparent;
+  background-size: cover;
+  background-image: url("./img/textbook.png");
+}
+
+/* footer */
+.footer {
+  padding: 30px 0;
+  background-color: #1a1c24;
+}
+.footer_copyrighrs {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Special Elite";
+  color: #c1403d;
+}
+
+.footer_rs_icon {
+  display: inline-block;
+  margin-left: 25px;
+  width: 35px;
+  height: 35px;
+  background-size: cover;
+  background-image: url("./img/RS_logo.png");
+  background-repeat: no-repeat;
+}
+
+.topbutton {
+  bottom:50px;
+  right:50px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position:fixed;
+  width: 40px;
+  height: 40px;
+  padding: 5px;
+
+  font-family: "Special Elite";
+  font-size: large;
+  font-weight: 700;
+  color: #c1403d;
+  opacity: .4;
+
+  border: 3px solid #c1403d;
+  border-radius: 100%;
+  background:#fff;
+  cursor:pointer;
+  text-align: center ;
+
+  transition-property: color border-color opacity;
+  transition-duration: .3s;
+  transition-timing-function: ease-in;
+}
+
+.topbutton:hover {
+  border-color: #f51713;
+  color: #f51713;
+  opacity: 0.8;
+}
+
+.footer_rs_icon {
+  animation: rotation 7s infinite linear;
+}
+
+@keyframes rotation {
+  from {
+  -webkit-transform: rotate(0deg);
+}
+  to {
+  -webkit-transform: rotate(360deg);
+}
+}
+
+
+
